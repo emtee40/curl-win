@@ -114,8 +114,8 @@ _VER="$1"
       no-module \
       no-dso \
       no-shared \
-      no-srp \
-      no-idea no-rc2 no-rc4 no-mdc2 \
+      no-srp no-nextprotoneg \
+      no-idea no-cmac no-cast no-rc2 no-rc4 no-mdc2 no-bf no-whirlpool \
       no-tests \
       no-makedepend \
       "--prefix=${_win_prefix}" \
